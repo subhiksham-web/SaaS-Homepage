@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SaaSify – Beige Edition</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#f7f3ee] text-[#3a2e2a]">
+
+<!-- NAVBAR -->
+<nav class="bg-[#fffaf5] shadow sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-[#b08968]">SaaSify</h1>
+
+    <div class="space-x-6 hidden md:flex items-center">
+      <a href="#" class="hover:text-[#b08968]">Features</a>
+      <a href="#" class="hover:text-[#b08968]">Pricing</a>
+      <a href="#" class="hover:text-[#b08968]">FAQ</a>
+      <button class="bg-[#b08968] text-white px-4 py-2 rounded-lg hover:bg-[#9c6f44]">
+        Get Started
+      </button>
+    </div>
+
+    <button id="menuBtn" class="md:hidden text-2xl">☰</button>
+  </div>
+
+  <div id="mobileMenu" class="hidden bg-[#fffaf5] px-6 pb-4 md:hidden">
+    <a class="block py-2">Features</a>
+    <a class="block py-2">Pricing</a>
+    <a class="block py-2">FAQ</a>
+    <button class="w-full mt-2 bg-[#b08968] text-white py-2 rounded-lg">
+      Get Started
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="bg-gradient-to-r from-[#f1ebe3] to-[#e6dccf]">
+  <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
+        Build Calm,  
+        <span class="text-[#b08968]">Scale Smart</span>
+      </h2>
+      <p class="mt-6 text-lg text-[#5a4a42]">
+        A minimal SaaS platform designed for focus, growth, and elegance.
+      </p>
+      <div class="mt-8 space-x-4">
+        <button class="bg-[#b08968] text-white px-6 py-3 rounded-lg hover:bg-[#9c6f44]">
+          Start Free Trial
+        </button>
+        <button class="border border-[#b08968] text-[#b08968] px-6 py-3 rounded-lg hover:bg-[#f7efe6]">
+          Live Demo
+        </button>
+      </div>
+    </div>
+
+    <img src="https://illustrations.popsy.co/beige/dashboard.svg" alt="Dashboard">
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="py-20 bg-[#f7f3ee]">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-12">Why SaaSify?</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-8 rounded-xl bg-[#fffaf5] shadow hover:-translate-y-2 transition">
+        <div class="text-4xl mb-4">⚡</div>
+        <h4 class="text-xl font-semibold mb-2">Smooth Performance</h4>
+        <p class="text-[#6b5b53]">Fast, reliable, and distraction-free.</p>
+      </div>
+
+      <div class="p-8 rounded-xl bg-[#fffaf5] shadow hover:-translate-y-2 transition">
+        <div class="text-4xl mb-4">🔐</div>
+        <h4 class="text-xl font-semibold mb-2">Secure</h4>
+        <p class="text-[#6b5b53]">Built with trust and privacy first.</p>
+      </div>
+
+      <div class="p-8 rounded-xl bg-[#fffaf5] shadow hover:-translate-y-2 transition">
+        <div class="text-4xl mb-4">📊</div>
+        <h4 class="text-xl font-semibold mb-2">Insights</h4>
+        <p class="text-[#6b5b53]">Clean analytics, clear decisions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="py-20 bg-[#f1ebe3]">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-12">Pricing</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-8 bg-[#fffaf5] rounded-xl shadow">
+        <h4 class="text-xl font-bold mb-2">Starter</h4>
+        <p class="text-4xl font-extrabold mb-4">₹0</p>
+        <p class="mb-6">For individuals</p>
+        <button class="border px-6 py-2 rounded-lg">Choose</button>
+      </div>
+
+      <div class="p-8 bg-[#b08968] text-white rounded-xl shadow scale-105">
+        <h4 class="text-xl font-bold mb-2">Pro</h4>
+        <p class="text-4xl font-extrabold mb-4">₹999</p>
+        <p class="mb-6">Best for teams</p>
+        <button class="bg-white text-[#b08968] px-6 py-2 rounded-lg">
+          Buy Now
+        </button>
+      </div>
+
+      <div class="p-8 bg-[#fffaf5] rounded-xl shadow">
+        <h4 class="text-xl font-bold mb-2">Enterprise</h4>
+        <p class="text-4xl font-extrabold mb-4">Custom</p>
+        <p class="mb-6">Advanced solutions</p>
+        <button class="border px-6 py-2 rounded-lg">Contact</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-[#b08968] text-white py-20 text-center">
+  <h3 class="text-3xl font-bold mb-4">Build Something Beautiful</h3>
+  <p class="mb-8 text-[#f1ebe3]">
+    Start your journey with calm, clarity, and control.
+  </p>
+  <button class="bg-white text-[#b08968] px-8 py-3 rounded-lg font-semibold">
+    Create Free Account
+  </button>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#3a2e2a] text-[#e6dccf] py-8 text-center">
+  <p>© 2025 SaaSify · Minimal · Elegant · Powerful</p>
+</footer>
+
+<script>
+  const btn = document.getElementById("menuBtn");
+  const menu = document.getElementById("mobileMenu");
+  btn.onclick = () => menu.classList.toggle("hidden");
+</script>
+
+</body>
+</html>
